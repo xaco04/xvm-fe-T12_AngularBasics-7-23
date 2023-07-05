@@ -1,0 +1,100 @@
+
+.calculator {
+    background-color: #A39F9A;
+    height: min-content;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.buttons {
+    margin-top: 10px;
+    width: 80%;
+
+}
+
+input {
+    width: 98.5%;
+    height: 40px;
+    border: none;
+}
+
+.row {
+    flex-grow: 1;
+}
+
+.row button {
+    width: 33%;
+    padding: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #A39F9A;
+    border: none;
+    color: white;
+
+
+}
+.contenedor-operadores{
+    background-color: #5EE8DD;
+
+
+}
+
+
+.botones-operadores button {
+    width: 100%;
+    padding: 7.6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #5EE8DD;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+
+.container-botones {
+    display: flex;
+}
+
+.botones-operadores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cn-1 {
+    background-color: #5EE8DD;
+
+}
+
+#header {
+    height: 15vh;
+}
+
+#main {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    height: 15vh;
+}
+
+.cl-1 {
+    background-color: rgb(255, 47, 224);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1 {
+    border: 0.1vw solid white;
+    margin: 1vw;
+}
+.p2 {
+    border: 0.1vw solid white;
+    margin: 1vw;
+}
+.p3 {
+    border: 0.1vw solid white;
+    margin: 1vw;
+}
