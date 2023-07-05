@@ -7,32 +7,33 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <body>
-  <div class="container-fluid cn-1 mb-1">
+  <div class="container-fluid cn-1 mb-1 custom-container">
     <div id="header" class="row"></div>
     <div id="main" class="row">
       <div class="calculator">
+        <div class="historial-operacion">{{ operacion }}</div>
         <input type="text" class="form-control" [(ngModel)]="display" readonly>
         <div class="container-botones">
           <div class="buttons">
             <div class="row">
-              <button class="btn btn-primary col-4" (click)="addToDisplay(7)">7</button>
-              <button class="btn btn-primary col-4" (click)="addToDisplay(8)">8</button>
               <button class="btn btn-primary col-4" (click)="addToDisplay(9)">9</button>
+              <button class="btn btn-primary col-4" (click)="addToDisplay(8)">8</button>
+              <button class="btn btn-primary col-4" (click)="addToDisplay(7)">7</button>
             </div>
             <div class="row">
-              <button class="btn btn-primary col-4" (click)="addToDisplay(4)">4</button>
-              <button class="btn btn-primary col-4" (click)="addToDisplay(5)">5</button>
               <button class="btn btn-primary col-4" (click)="addToDisplay(6)">6</button>
+              <button class="btn btn-primary col-4" (click)="addToDisplay(5)">5</button>
+              <button class="btn btn-primary col-4" (click)="addToDisplay(4)">4</button>
             </div>
             <div class="row">
-              <button class="btn btn-primary col-4" (click)="addToDisplay(1)">1</button>
-              <button class="btn btn-primary col-4" (click)="addToDisplay(2)">2</button>
               <button class="btn btn-primary col-4" (click)="addToDisplay(3)">3</button>
+              <button class="btn btn-primary col-4" (click)="addToDisplay(2)">2</button>
+              <button class="btn btn-primary col-4" (click)="addToDisplay(1)">1</button>
             </div>
             <div class="row">
-              <button class="btn btn-primary col-4" (click)="addToDisplay(0)">.</button>
+              <button class="btn btn-primary col-4" (click)="addToDisplay('.')">.</button>
               <button class="btn btn-primary col-4" (click)="addToDisplay(0)">0</button>
-              <button class="btn btn-primary col-4" (click)="addToDisplay(0)">00</button>
+              <button class="btn btn-primary col-4" (click)="addToDisplay('00')">00</button>
             </div>
           </div>
           <div class="contenedor-operadores">

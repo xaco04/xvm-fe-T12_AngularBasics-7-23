@@ -1,9 +1,18 @@
-
 .calculator {
     background-color: #A39F9A;
     height: min-content;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
 
+.historial-operacion {
+    height: 40px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+    font-size: x-large;
 }
 
 .buttons {
@@ -13,9 +22,14 @@
 }
 
 input {
-    width: 98.5%;
+    width: 95.4%;
     height: 40px;
     border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    padding-right: 10px;
+    font-size: large;
+
 }
 
 .row {
@@ -39,7 +53,6 @@ input {
 
 }
 
-
 .botones-operadores button {
     width: 100%;
     padding: 7.6px;
@@ -62,11 +75,6 @@ input {
 }
 
 
-.cn-1 {
-    background-color: #5EE8DD;
-
-}
-
 #header {
     height: 15vh;
 }
@@ -82,19 +90,6 @@ input {
 }
 
 .cl-1 {
-    background-color: rgb(255, 47, 224);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.p1 {
-    border: 0.1vw solid white;
-    margin: 1vw;
-}
-.p2 {
-    border: 0.1vw solid white;
-    margin: 1vw;
-}
-.p3 {
-    border: 0.1vw solid white;
-    margin: 1vw;
-}
